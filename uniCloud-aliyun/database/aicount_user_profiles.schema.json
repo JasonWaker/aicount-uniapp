@@ -1,0 +1,41 @@
+{
+  "bsonType": "object",
+  "required": ["user_id", "created_at", "updated_at"],
+  "permission": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  },
+  "properties": {
+    "_id": {
+      "description": "Document id"
+    },
+    "user_id": {
+      "bsonType": "string",
+      "description": "uni-id user id"
+    },
+    "nickname": {
+      "bsonType": "string",
+      "description": "Display nickname"
+    },
+    "avatar_url": {
+      "bsonType": "string",
+      "description": "Avatar image url"
+    },
+    "phone_mask": {
+      "bsonType": "string",
+      "description": "Masked phone number"
+    },
+    "pro_badge_enabled": {
+      "bsonType": "bool",
+      "defaultValue": false
+    },
+    "created_at": {
+      "bsonType": "timestamp"
+    },
+    "updated_at": {
+      "bsonType": "timestamp"
+    }
+  }
+}

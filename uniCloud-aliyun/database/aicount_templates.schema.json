@@ -1,0 +1,49 @@
+{
+  "bsonType": "object",
+  "required": ["template_key", "title", "image_url", "is_pro", "sort_order", "status", "created_at", "updated_at"],
+  "permission": {
+    "read": true,
+    "create": false,
+    "update": false,
+    "delete": false
+  },
+  "properties": {
+    "_id": {
+      "description": "Document id"
+    },
+    "template_key": {
+      "bsonType": "string"
+    },
+    "title": {
+      "bsonType": "string"
+    },
+    "category": {
+      "bsonType": "string"
+    },
+    "image_url": {
+      "bsonType": "string"
+    },
+    "thumbnail_url": {
+      "bsonType": "string"
+    },
+    "is_pro": {
+      "bsonType": "bool",
+      "defaultValue": false
+    },
+    "sort_order": {
+      "bsonType": "int",
+      "defaultValue": 0
+    },
+    "status": {
+      "bsonType": "string",
+      "enum": ["active", "disabled"],
+      "defaultValue": "active"
+    },
+    "created_at": {
+      "bsonType": "timestamp"
+    },
+    "updated_at": {
+      "bsonType": "timestamp"
+    }
+  }
+}

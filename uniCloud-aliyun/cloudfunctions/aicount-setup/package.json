@@ -1,0 +1,6 @@
+{
+  "name": "aicount-setup",
+  "version": "1.0.0",
+  "main": "index.obj.js",
+  "private": true
+}

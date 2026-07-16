@@ -1,0 +1,59 @@
+{
+  "bsonType": "object",
+  "required": ["title", "is_default", "is_deleted", "sort_order", "created_at", "updated_at"],
+  "permission": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  },
+  "properties": {
+    "_id": {
+      "description": "Document id"
+    },
+    "user_id": {
+      "bsonType": "string",
+      "description": "Owner user id. Empty for system default books."
+    },
+    "system_key": {
+      "bsonType": "string",
+      "description": "Default book key such as life, study, work"
+    },
+    "title": {
+      "bsonType": "string"
+    },
+    "description": {
+      "bsonType": "string"
+    },
+    "icon_key": {
+      "bsonType": "string"
+    },
+    "icon_url": {
+      "bsonType": "string"
+    },
+    "cover_color": {
+      "bsonType": "string"
+    },
+    "cover_image_url": {
+      "bsonType": "string"
+    },
+    "is_default": {
+      "bsonType": "bool",
+      "defaultValue": false
+    },
+    "is_deleted": {
+      "bsonType": "bool",
+      "defaultValue": false
+    },
+    "sort_order": {
+      "bsonType": "int",
+      "defaultValue": 0
+    },
+    "created_at": {
+      "bsonType": "timestamp"
+    },
+    "updated_at": {
+      "bsonType": "timestamp"
+    }
+  }
+}

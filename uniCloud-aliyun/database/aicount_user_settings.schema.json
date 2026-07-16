@@ -1,0 +1,39 @@
+{
+  "bsonType": "object",
+  "required": ["user_id", "created_at", "updated_at"],
+  "permission": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  },
+  "properties": {
+    "_id": {
+      "description": "Document id"
+    },
+    "user_id": {
+      "bsonType": "string"
+    },
+    "notification_enabled": {
+      "bsonType": "bool",
+      "defaultValue": true
+    },
+    "privacy_profile_visible": {
+      "bsonType": "bool",
+      "defaultValue": false
+    },
+    "allow_ai_analysis": {
+      "bsonType": "bool",
+      "defaultValue": true
+    },
+    "settings": {
+      "bsonType": "object"
+    },
+    "created_at": {
+      "bsonType": "timestamp"
+    },
+    "updated_at": {
+      "bsonType": "timestamp"
+    }
+  }
+}

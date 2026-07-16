@@ -1,0 +1,10 @@
+{
+  "name": "ai-countdown-uniapp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI倒数日 uni-app migration",
+  "scripts": {
+    "dev:mp-weixin": "uni -p mp-weixin",
+    "build:mp-weixin": "uni build -p mp-weixin"
+  }
+}

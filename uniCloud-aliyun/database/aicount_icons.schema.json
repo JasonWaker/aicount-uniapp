@@ -1,0 +1,36 @@
+{
+  "bsonType": "object",
+  "required": ["icon_key", "name", "file_url", "status"],
+  "permission": {
+    "read": true,
+    "create": false,
+    "update": false,
+    "delete": false
+  },
+  "properties": {
+    "_id": {
+      "description": "Document id"
+    },
+    "icon_key": {
+      "bsonType": "string"
+    },
+    "name": {
+      "bsonType": "string"
+    },
+    "file_url": {
+      "bsonType": "string"
+    },
+    "category": {
+      "bsonType": "string"
+    },
+    "sort_order": {
+      "bsonType": "int",
+      "defaultValue": 0
+    },
+    "status": {
+      "bsonType": "string",
+      "enum": ["active", "disabled"],
+      "defaultValue": "active"
+    }
+  }
+}

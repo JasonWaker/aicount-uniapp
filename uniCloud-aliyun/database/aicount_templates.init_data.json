@@ -1,0 +1,54 @@
+[
+  {
+    "_id": "tpl-sky",
+    "template_key": "sky",
+    "title": "天空",
+    "category": "hot",
+    "image_url": "/static/assets/templates/sky.jpg",
+    "thumbnail_url": "/static/assets/templates/sky.jpg",
+    "is_pro": false,
+    "sort_order": 10,
+    "status": "active",
+    "created_at": 1760000000000,
+    "updated_at": 1760000000000
+  },
+  {
+    "_id": "tpl-modern",
+    "template_key": "modern",
+    "title": "现代主义",
+    "category": "hot",
+    "image_url": "/static/assets/templates/modern.jpg",
+    "thumbnail_url": "/static/assets/templates/modern.jpg",
+    "is_pro": true,
+    "sort_order": 20,
+    "status": "active",
+    "created_at": 1760000000000,
+    "updated_at": 1760000000000
+  },
+  {
+    "_id": "tpl-love",
+    "template_key": "love",
+    "title": "恋爱宣言",
+    "category": "minimal",
+    "image_url": "/static/assets/templates/love.jpg",
+    "thumbnail_url": "/static/assets/templates/love.jpg",
+    "is_pro": true,
+    "sort_order": 30,
+    "status": "active",
+    "created_at": 1760000000000,
+    "updated_at": 1760000000000
+  },
+  {
+    "_id": "tpl-month",
+    "template_key": "month",
+    "title": "倒计时月",
+    "category": "minimal",
+    "image_url": "/static/assets/templates/month.jpg",
+    "thumbnail_url": "/static/assets/templates/month.jpg",
+    "is_pro": false,
+    "sort_order": 40,
+    "status": "active",
+    "created_at": 1760000000000,
+    "updated_at": 1760000000000
+  }
+]

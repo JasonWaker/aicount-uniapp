@@ -1,0 +1,34 @@
+{
+  "bsonType": "object",
+  "required": ["timeline_id", "user_id", "file_url", "sort_order", "created_at"],
+  "permission": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  },
+  "properties": {
+    "_id": {
+      "description": "Document id"
+    },
+    "timeline_id": {
+      "bsonType": "string"
+    },
+    "event_id": {
+      "bsonType": "string"
+    },
+    "user_id": {
+      "bsonType": "string"
+    },
+    "file_url": {
+      "bsonType": "string"
+    },
+    "sort_order": {
+      "bsonType": "int",
+      "defaultValue": 0
+    },
+    "created_at": {
+      "bsonType": "timestamp"
+    }
+  }
+}

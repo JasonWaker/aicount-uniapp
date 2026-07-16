@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "icon-favorite",
+    "icon_key": "favorite",
+    "name": "\u751f\u6d3b",
+    "file_url": "/static/assets/icons/favorite.svg",
+    "category": "book",
+    "sort_order": 10,
+    "status": "active"
+  },
+  {
+    "_id": "icon-school",
+    "icon_key": "school",
+    "name": "\u5b66\u4e60",
+    "file_url": "/static/assets/icons/school.svg",
+    "category": "book",
+    "sort_order": 20,
+    "status": "active"
+  },
+  {
+    "_id": "icon-cake",
+    "icon_key": "cake",
+    "name": "\u7eaa\u5ff5\u65e5",
+    "file_url": "/static/assets/icons/cake.svg",
+    "category": "book",
+    "sort_order": 30,
+    "status": "active"
+  },
+  {
+    "_id": "icon-work",
+    "icon_key": "work",
+    "name": "\u5de5\u4f5c",
+    "file_url": "/static/assets/icons/work.svg",
+    "category": "book",
+    "sort_order": 40,
+    "status": "active"
+  },
+  {
+    "_id": "icon-explore",
+    "icon_key": "explore",
+    "name": "\u65c5\u884c",
+    "file_url": "/static/assets/icons/explore.svg",
+    "category": "book",
+    "sort_order": 50,
+    "status": "active"
+  },
+  {
+    "_id": "icon-book",
+    "icon_key": "book",
+    "name": "\u5012\u6570\u672c",
+    "file_url": "/static/assets/icons/book.svg",
+    "category": "common",
+    "sort_order": 60,
+    "status": "active"
+  }
+]

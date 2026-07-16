@@ -1,0 +1,13 @@
+{
+  "name": "deepseek-ai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "engines": {
+    "node": ">=16"
+  },
+  "cloudfunction-config": {
+    "memorySize": 512,
+    "timeout": 60
+  }
+}

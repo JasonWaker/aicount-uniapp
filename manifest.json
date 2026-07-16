@@ -1,0 +1,18 @@
+{
+  "name": "AI倒数日",
+  "appid": "__UNI__AICOUNT",
+  "description": "AI倒数日 uni-app 迁移版",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "wxadb4dbad68611180",
+    "setting": {
+      "urlCheck": false,
+      "es6": true,
+      "postcss": true,
+      "minified": true
+    },
+    "usingComponents": true
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "bsonType": "object",
+  "required": ["event_id", "user_id", "reminder_type", "enabled", "created_at", "updated_at"],
+  "permission": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  },
+  "properties": {
+    "_id": {
+      "description": "Document id"
+    },
+    "event_id": {
+      "bsonType": "string"
+    },
+    "user_id": {
+      "bsonType": "string"
+    },
+    "reminder_type": {
+      "bsonType": "string"
+    },
+    "label": {
+      "bsonType": "string"
+    },
+    "remind_time": {
+      "bsonType": "string"
+    },
+    "enabled": {
+      "bsonType": "bool",
+      "defaultValue": true
+    },
+    "next_trigger_at": {
+      "bsonType": "timestamp"
+    },
+    "created_at": {
+      "bsonType": "timestamp"
+    },
+    "updated_at": {
+      "bsonType": "timestamp"
+    }
+  }
+}

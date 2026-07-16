@@ -1,0 +1,28 @@
+{
+  "bsonType": "object",
+  "required": ["user_id", "book_ids", "created_at", "updated_at"],
+  "permission": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  },
+  "properties": {
+    "_id": {
+      "description": "Document id"
+    },
+    "user_id": {
+      "bsonType": "string"
+    },
+    "book_ids": {
+      "bsonType": "array",
+      "arrayType": "string"
+    },
+    "created_at": {
+      "bsonType": "timestamp"
+    },
+    "updated_at": {
+      "bsonType": "timestamp"
+    }
+  }
+}

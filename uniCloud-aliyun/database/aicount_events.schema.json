@@ -1,0 +1,83 @@
+{
+  "bsonType": "object",
+  "required": ["user_id", "title", "target_date", "status", "created_at", "updated_at"],
+  "permission": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  },
+  "properties": {
+    "_id": {
+      "description": "Document id"
+    },
+    "user_id": {
+      "bsonType": "string"
+    },
+    "book_id": {
+      "bsonType": "string"
+    },
+    "book_title": {
+      "bsonType": "string"
+    },
+    "title": {
+      "bsonType": "string"
+    },
+    "note": {
+      "bsonType": "string"
+    },
+    "target_date": {
+      "bsonType": "timestamp"
+    },
+    "target_date_text": {
+      "bsonType": "string"
+    },
+    "initial_days": {
+      "bsonType": "int",
+      "defaultValue": 0
+    },
+    "pinned": {
+      "bsonType": "bool",
+      "defaultValue": false
+    },
+    "ai_breakdown_enabled": {
+      "bsonType": "bool",
+      "defaultValue": false
+    },
+    "ai_reminder": {
+      "bsonType": "string"
+    },
+    "background": {
+      "bsonType": "object"
+    },
+    "theme_key": {
+      "bsonType": "string"
+    },
+    "effect": {
+      "bsonType": "object"
+    },
+    "reminder": {
+      "bsonType": "object"
+    },
+    "poster": {
+      "bsonType": "object"
+    },
+    "event_icon_key": {
+      "bsonType": "string"
+    },
+    "status": {
+      "bsonType": "string",
+      "enum": ["active", "completed", "archived", "deleted"],
+      "defaultValue": "active"
+    },
+    "completed_at": {
+      "bsonType": "timestamp"
+    },
+    "created_at": {
+      "bsonType": "timestamp"
+    },
+    "updated_at": {
+      "bsonType": "timestamp"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "bsonType": "object",
+  "required": ["feature", "status", "created_at"],
+  "permission": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  },
+  "properties": {
+    "_id": {
+      "description": "Document id"
+    },
+    "user_id": {
+      "bsonType": "string"
+    },
+    "event_id": {
+      "bsonType": "string"
+    },
+    "feature": {
+      "bsonType": "string"
+    },
+    "provider": {
+      "bsonType": "string"
+    },
+    "model": {
+      "bsonType": "string"
+    },
+    "request_payload": {
+      "bsonType": "object"
+    },
+    "response_payload": {
+      "bsonType": "object"
+    },
+    "status": {
+      "bsonType": "string",
+      "enum": ["success", "failed", "fallback"]
+    },
+    "error_message": {
+      "bsonType": "string"
+    },
+    "created_at": {
+      "bsonType": "timestamp"
+    }
+  }
+}
